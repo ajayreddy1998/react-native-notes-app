@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                checkout scm
+                checkout https://github.com/ajayreddy1998/react-native-notes-app.git
             }
         }
 
